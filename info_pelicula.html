@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>API Chuck</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .div-1{
+            background-color: rgb(108, 177, 76);
+        }
+        .div-2{
+            background-color: rgb(85, 172, 44);
+        }
+        .div-3{
+            background-color: rgb(111, 156, 39);
+        }
+
+        body {
+            background-color: rgb(96, 146, 73);
+        }
+
+        .row {
+            padding: 10px;
+            margin: 10px;
+            height: 900px;
+        }
+
+        .col {
+            margin: 5px;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">API Chuck Norris</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./info_chuck.html">Info Chuck Norris</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./info_pelicula.html">Info Película</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4 text-center slide-in">
+        <h1 class="display-4">Información sobre la Película</h1>
+    </div>
+    <div class="container flex-grow-1 fade-in">
+        <div class="row align-items-start">
+            <div class="col slide-in div-3">
+                <img src="./src/img/chuck_6.avif" alt="Imagen 1" class="img-fluid rounded"
+                    style="max-height: 555px; margin-top: 10px; ">
+                <h2 class="text-center">Dato 1</h2>
+                <p class="text-center">
+                    Trabajó en películas de acción como A Force of One (1979), The Octagon (1980) y An Eye for an Eye
+                    (1981), Silent Rage (1982), Forced Vengeance (1982), Lone Wolf McQuade (1983). Firmó con Cannon
+                    Films para la que rodó Missing in Action (1984), que tuvo un gran éxito y lanzó una trilogía,
+                    después, Invasion USA (1985), The Delta Force (1986), Firewalker (1986), y otras.
+                </p>
+            </div>
+            <div class="col text-center slide-in div-1">
+                <img src="./src/img/chuck_7.jpg" alt="Imagen 3" class="img-fluid rounded" style="margin-top: 10px;">
+                <h2 class="text-center">Dato 2</h2>
+                <p>
+                    También trabajó en Code of Silence (1985), considerado uno de sus mejores filmes, en Delta Force 2
+                    (1990), The Hitman (1991), Forest Warrior (1996) y The President's Man (2002).
+                    <br>
+                    Norris hizo su última aparición en el cine en The Expendables 2 (2012).
+                    <br>
+                    Debutó como estrella de la pequeña pantalla en 1993 con la serie Walker, Texas Ranger. en la que
+                    actuó hasta 2001.
+
+                </p>
+
+            </div>
+            <div class="col slide-in div-2">
+                <img src="./src/img/chuck_8.jpg" alt="Imagen 2" class="img-fluid rounded" style="margin-top: 10px; max-height: 555px;">
+                <h2 class="text-center">Dato 3</h2>
+                <p class="text-center">
+                    Estuvo casado con Diane Holechek de 1958 a 1988, y con Gena O'Kelly desde1998. Padre de Mike Norris,
+                    Dina Norris, Eric Norris, Dakota Alan Norris y Danilee Kelly Norris.
+                    <br>
+                    Su hijo, Mike, también apareció en varias películas como actor, y su hermano, Aaron, trabajó como
+                    realizador en varias de sus producciones.
+                    <br>
+                    En 2017, sufrió dos infartos de los que se recuperó.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-success text-white text-center py-3 slide-in">
+        <h6>Derechos reservados &copy; 2023 Damian, Erika :uniminuto</h6>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
